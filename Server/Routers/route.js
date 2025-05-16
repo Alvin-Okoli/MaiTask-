@@ -7,8 +7,8 @@ const router = Router();
 router.post('/login', loginPost)
 router.post('/register', register)
 router.get('/user', getUsers)
-router.get('/user', tasksPerUser)
-router.get('/user', tasksPerStatus)
+router.get('/usertask', tasksPerUser)
+router.get('/statusTasks', tasksPerStatus)
 
 //task routes
 router.get('/tasks', getTasks) 
