@@ -6,8 +6,6 @@ import cookieParser from 'cookie-parser';
 import cors from 'cors'
 
 //enviromental variables
-import dotenv from 'dotenv';
-dotenv.config()
 const port = process.env.PORT;
 const mongoKey = process.env.MONGOKEY
 
