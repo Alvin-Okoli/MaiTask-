@@ -1,19 +1,17 @@
-**<div>Project Name</div>**
+# Mai Tech Task Manager 📈.
 
-Mai Tech Task Manager.
-
-***<div>Important Note:</div>***
+## Important Note:
 It's hosted on render and would need a little while to restart the server
 
-**<div>Description</div>**
+## Description
 This is an internal tool to help teams manage tasks, set deadlines, assign
 responsibilities, and monitor project progress in real time. This web-based system supports both admin
 and team member roles.
 
-**<div>Tech Stack</div>**
-<div>Backend 👨🏾‍💻</div>
+## Tech Stack
+-Backend 👨🏾‍💻
     - Node and Express
-<div>Database 🫙</div>
+-Database 🫙
     - Mongodb for database and mongoose for querying
 
 <!-- **Prerequisites**
@@ -23,10 +21,10 @@ and team member roles.
 3. Testing: Information on how to run tests and ensure the project is working correctly.
 4. Deployment: Instructions on how to deploy the project to a production environment. -->
 
-**<div>API Endpoints</div>**
-<div>Methods are used are in italics</div>
+## API Endpoints
+### Methods are used are in italics
 - ('/login') *POST*: This is a POST request that takes in two arguements: name and password, to log in users.
-- ('/register') *POST*: This is a POST request that takes in three arguements: name, email and password to register in users. Note: that the role is set by default to user and would 
+- ('/register') *POST*: This is a POST request that takes in three arguements: name, email and password to register in users. Note: that the role is set by default to user and would be set to admin from the backend.
 - ('/user') *GET*: This is a GET request thats retrieves all users with their tasks, removes passwords, and returns the user objects.
 - ('/usertask') *GET*: This is a GET request that returns users names, ids and the number of tasks assigned to each user.
 <!-- ('/user', tasksPerStatus): -->
@@ -38,8 +36,8 @@ and team member roles.
 - ('/tasks/:id') *DELETE*: Deletes a task by ID
 
 
-**<div>Test points</div>**
-<div>Simple Usage Examples:</div>
+## Test points
+### Simple Usage Examples:
 - Pay Bills: Settle outstanding financial obligations to vendors, suppliers, or service providers by paying invoices, dues, or other liabilities on time.
 - HR Interview: A meeting between a job candidate and a representative of the hiring company to assess the candidate's qualifications, experience, and fit for a specific role within the organization.
 - Restock Shop: Replenish inventory levels in a retail store or shop by ordering and receiving new stock, organizing merchandise, and ensuring adequate supply to meet customer demand.
