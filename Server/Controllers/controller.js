@@ -2,8 +2,6 @@ import jwt from 'jsonwebtoken'
 import { User, Task } from '../Model/model.js'
 
 //dotenv config and enviromental variables
-import dotenv from 'dotenv'
-dotenv.config();
 const secret = process.env.SECRET
 
 //jwt
