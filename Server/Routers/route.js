@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { loginPost, register, getTasks, setTasks, updateTasks, deleteTasks, getUsers, getUserTasks, setManyTasks} from "../Controllers/controller.js"
+import { loginPost, register, getTasks, setTasks, updateTasks, deleteTasks, getUsers, getUserTasks, setManyTasks, tasksPerUser, tasksPerStatus} from "../Controllers/controller.js"
 
 const router = Router();
 
@@ -7,6 +7,8 @@ const router = Router();
 router.post('/login', loginPost)
 router.post('/register', register)
 router.get('/user', getUsers)
+router.get('/user', tasksPerUser)
+router.get('/user', tasksPerStatus)
 
 //task routes
 router.get('/tasks', getTasks) 
