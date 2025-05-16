@@ -1,12 +1,13 @@
-**Project Name**
+<div>**Project Name**</div>
+
 Mai Tech Task Manager.
 
-**Description**
+<div>**Description**</div>
 This is an internal tool to help teams manage tasks, set deadlines, assign
 responsibilities, and monitor project progress in real time. This web-based system supports both admin
 and team member roles.
 
-**Tech Stack**
+<div>**Tech Stack**</div>
 -Backend 👨🏾‍💻
     - Node
     - Express
@@ -31,7 +32,7 @@ and team member roles.
 4. Deployment: Instructions on how to deploy the project to a production environment. -->
 
 
-**Test points**
+<div>**Test points**</div>
 Tasks:
 tasks:
 -Pay Bills: Settle outstanding financial obligations to vendors, suppliers, or service providers by paying invoices, dues, or other liabilities on time.
